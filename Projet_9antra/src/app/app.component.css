@@ -1,0 +1,44 @@
+/* app.component.css ou home.component.css */
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.user-menu {
+    float: right;
+}
+
+/* Modifiez cette partie pour cibler directement le lien a avec la classe .login-button */
+.login-button a {
+    background-color: #af4c4c;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button a:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,139 @@
+.course-container {
+    margin-top: 300px;
+    
+    }
+.top-section {
+    height: 60vh; 
+    text-align: center; 
+    margin-bottom: 20px;
+
+}
+
+
+.top-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.top-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px; 
+}
+
+.overlay-content {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+}
+.title {
+    color: rgb(189, 2, 126);;
+}
+.overlay-content-panel {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.overlay-content p,
+.overlay-content button {
+    margin: 5px 0;
+}
+.overlay-content .register-button {
+    background-color: rgb(189, 2, 126); 
+    color: white;
+    padding: 18px;
+    border: none;
+    border-radius: 70px;
+    cursor: pointer;
+}
+
+
+.view-more-button {
+    background-color: rgb(189, 2, 126);
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.right-align {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course-group {
+    text-align: center; 
+     display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between
+}
+.course {
+    width: 30%; 
+ 
+    margin: 0 ;
+    box-sizing: border-box; 
+}
+.course-group .course,
+    .course-group .course-group {
+        display: inline-block;
+        vertical-align: top; 
+        margin: 0 10px; 
+     
+       
+   
+    }
+    .course img {
+        margin: 0;
+        display: block; 
+        width: 100%; 
+    }
+    .contact-container {
+        background-color: #e6a721;
+        padding: 20px;
+        margin: 20px auto; 
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 50%; 
+        text-align: center;
+    }
+
+    .contact-container h2 {
+        color: black; 
+    }
+    .contact-form label {
+        margin-bottom: 8px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 8px;
+        margin-bottom: 16px;
+    }
+    .contact-form button {
+        background-color:  rgb(189, 2, 126);
+        color: #fff;
+        padding: 10px 40px;
+        border: none;
+         font-size: 16px;
+        border-radius: 20px; 
+        cursor: pointer;
+    }
+    .left-label {
+        text-align: left;
+        display: block;
+        margin-bottom: 5px;
+    }
+    .form-control {
+        border-radius: 10px;
+        padding: 10px; 
+        border: 1px solid #ccc;
+        font-size: 16px;
+        width: 90%; 
+    }
+    
